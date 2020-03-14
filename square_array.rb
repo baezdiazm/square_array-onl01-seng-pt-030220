@@ -2,11 +2,10 @@
 
 
 
-def square_array(numbers)
-  numbers = [1,2,3]
-  numbers.each do |numbers|
-    numbers = numbers**2
-    new_numbers = [numbers]
-    numbers<<new_numbers
+def square_array(array)
+  squared_numbers = []
+  array.each do |numbers|
+    squared_numbers<<numbers**2
   end
+  squared_numbers
 end
